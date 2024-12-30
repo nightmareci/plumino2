@@ -6,9 +6,9 @@
 
 uniform float time;
 
-#define TIME_WOBBLE 2
-#define INTENSITY 25
-#define DIVIDER 50
+#define TIME_WOBBLE 2.0
+#define INTENSITY 25.0
+#define DIVIDER 50.0
 
 vec4 effect( vec4 color, Image tex, vec2 texture_coords, vec2 screen_coords )
 {
